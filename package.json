@@ -1,7 +1,7 @@
 {
   "name": "mp-utils",
-  "version": "1.0.0",
-  "description": "Css utilities for mini program",
+  "version": "0.0.1",
+  "description": "适用于小程序的 CSS 工具类",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
