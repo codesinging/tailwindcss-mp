@@ -1,0 +1,5 @@
+@each $value in (fixed local scroll){
+  .bg-#{$value}{
+    background-attachment: $value;
+  }
+}
