@@ -1,0 +1,12 @@
+$flows: (
+        row:row,
+        col: column,
+        'row-dense': row dense,
+        'col-dense': column dense,
+);
+
+@each $key, $value in $flows {
+  .grid-flow-#{$key} {
+    grid-auto-flow: $value;
+  }
+}
