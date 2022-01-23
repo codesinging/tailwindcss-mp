@@ -1,0 +1,5 @@
+@each $float in (right left none) {
+  .float-#{$float} {
+    float: $float;
+  }
+}
