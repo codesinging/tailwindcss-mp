@@ -1,0 +1,13 @@
+@import "variables";
+
+@each $key, $value in $spacings {
+  .gap-#{$key} {
+    gap: $value;
+  }
+  .gap-x-#{$key} {
+    column-gap: $value;
+  }
+  .gap-y-#{$key} {
+    row-gap: $value;
+  }
+}
