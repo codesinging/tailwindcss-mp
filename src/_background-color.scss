@@ -1,0 +1,32 @@
+@import "variables";
+
+$specialColors: (
+        'inherit': $inherit,
+        'current': $current,
+        'transparent': $transparent,
+        'black': $black,
+        'white': $white
+) !default;
+
+@each $color, $value in $specialColors {
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}
+
+$serialColors: (
+        'gray': $grays,
+        'red': $reds,
+        'orange': $oranges,
+        'green': $greens,
+        'blue': $blues,
+        'purple': $purples
+) !default;
+
+@each $serial, $colors in $serialColors {
+  @each $color, $value in $colors {
+    .bg-#{$serial}-#{$color} {
+      background-color: $value;
+    }
+  }
+}
