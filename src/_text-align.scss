@@ -1,0 +1,5 @@
+@each $value in (left center right justify) {
+  .text-#{$value} {
+    text-align: $value;
+  }
+}
