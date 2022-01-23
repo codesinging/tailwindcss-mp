@@ -1,0 +1,10 @@
+@import "variables";
+
+@each $key, $value in $spacings {
+  .space-x-#{$key} > :not([hidden]) ~ :not([hidden]) {
+    margin-left: $value;
+  }
+  .space-y-#{$key} > :not([hidden]) ~ :not([hidden]) {
+    margin-top: $value;
+  }
+}
