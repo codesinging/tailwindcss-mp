@@ -1,0 +1,13 @@
+$aligns: (
+        auto: auto,
+        start: start,
+        end: end,
+        center:center,
+        stretch: stretch,
+);
+
+@each $key, $value in $aligns {
+  .place-self-#{$key} {
+    place-self: $value;
+  }
+}
