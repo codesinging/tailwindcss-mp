@@ -6636,10 +6636,6 @@
   text-decoration-thickness: auto;
 }
 
-.decoration-from-font {
-  text-decoration-thickness: from-font;
-}
-
 .decoration-0 {
   text-decoration-thickness: 0px;
 }
@@ -6662,10 +6658,6 @@
 
 .underline-offset-auto {
   text-underline-offset: auto;
-}
-
-.underline-offset-from-font {
-  text-underline-offset: from-font;
 }
 
 .underline-offset-0 {
@@ -6702,4 +6694,18 @@
 
 .normal-case {
   text-transform: none;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.text-clip {
+  text-overflow: clip;
 }
