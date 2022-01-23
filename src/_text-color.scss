@@ -1,8 +1,8 @@
 @import "variables";
 
-@each $color, $value in $specialColors {
-  .bg-#{$color} {
-    background-color: $value;
+@each $key, $value in $specialColors {
+  .text-#{$key} {
+    color: $value;
   }
 }
 
@@ -17,8 +17,8 @@ $serialColors: (
 
 @each $serial, $colors in $serialColors {
   @each $color, $value in $colors {
-    .bg-#{$serial}-#{$color} {
-      background-color: $value;
+    .text-#{$serial}-#{$color} {
+      color: $value;
     }
   }
 }
