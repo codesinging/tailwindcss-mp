@@ -3008,6 +3008,22 @@
   justify-content: space-evenly;
 }
 
+.justify-items-start {
+  justify-items: start;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
 .bg-inherit {
   background-color: inherit;
 }
