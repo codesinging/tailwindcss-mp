@@ -31,3 +31,17 @@ $thicknesses: (
     text-decoration-thickness: $value;
   }
 }
+
+$offsets: (
+        auto: auto,
+        0: 0px,
+        1: 1px,
+        2: 2px,
+        4: 4px,
+        8: 8px,
+);
+@each $key, $value in $thicknesses {
+  .underline-offset-#{$key} {
+    text-underline-offset: $value;
+  }
+}
