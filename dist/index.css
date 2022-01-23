@@ -224,6 +224,26 @@
   overflow-y: scroll;
 }
 
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
 .bg-inherit {
   background-color: inherit;
 }
