@@ -1,0 +1,5 @@
+@each $value in (baseline top middle bottom text-top text-bottom sub super) {
+  .align-#{$value} {
+    vertical-align: $value;
+  }
+}
