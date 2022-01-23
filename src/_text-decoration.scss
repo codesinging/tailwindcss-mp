@@ -1,0 +1,12 @@
+$decorations: (
+        'underline': underline,
+        'overline': overline,
+        'line-through': line-through,
+        'no-underline': none,
+);
+
+@each $key, $value in $decorations {
+  .#{$key} {
+    text-decoration-line: $value;
+  }
+}
