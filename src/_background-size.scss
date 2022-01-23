@@ -1,0 +1,5 @@
+@each $value in (auto cover contain) {
+  .bg-#{$value} {
+    background-size: $value;
+  }
+}
