@@ -10,6 +10,8 @@ $variants: (
         'stacked-fractions': stacked-fractions,
 );
 
-@each $key, $value in $variants{
-  font-variant-numeric: $value;
+@each $key, $value in $variants {
+  .#{$key} {
+    font-variant-numeric: $value;
+  }
 }

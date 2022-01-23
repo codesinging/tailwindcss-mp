@@ -1,0 +1,11 @@
+@each $value in (none disc decimal) {
+  .list-#{$value} {
+    list-style-type: $value;
+  }
+}
+
+@each $value in (inside outside) {
+  .list-#{$value} {
+    list-style-position: $value;
+  }
+}
