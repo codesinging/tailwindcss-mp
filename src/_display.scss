@@ -1,0 +1,11 @@
+$displays: block inline-block inline flex inline-flex table table-cell flow-root grid inline-grid contents list-item;
+
+@each $display in $displays {
+  .#{$display} {
+    display: $display;
+  }
+}
+
+.hidden{
+  display: none;
+}
