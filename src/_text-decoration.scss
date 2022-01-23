@@ -10,3 +10,24 @@ $decorations: (
     text-decoration-line: $value;
   }
 }
+
+@each $value in (solid double dotted dashed wavy) {
+  .decoration-#{$value} {
+    text-decoration-style: $value;
+  }
+}
+
+$thicknesses: (
+        auto: auto,
+        'from-font': from-font,
+        0: 0px,
+        1: 1px,
+        2: 2px,
+        4: 4px,
+        8: 8px,
+);
+@each $key, $value in $thicknesses {
+  .decoration-#{$key} {
+    text-decoration-thickness: $value;
+  }
+}
