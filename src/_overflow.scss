@@ -1,0 +1,17 @@
+$values: auto hidden visible scroll;
+
+$directions: x y;
+
+@each $value in $values{
+  .overflow-#{$value}{
+    overflow: $value;
+  }
+}
+
+@each $value in $values{
+  @each $direction in $directions{
+    .overflow-#{$direction}-#{$value}{
+      overflow-#{$direction}: $value;
+    }
+  }
+}
