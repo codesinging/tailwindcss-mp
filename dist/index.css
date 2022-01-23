@@ -6761,3 +6761,16 @@
 .whitespace-pre-wrap {
   white-space: pre-wrap;
 }
+
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-all {
+  word-break: break-all;
+}
