@@ -1,0 +1,59 @@
+$radius: (
+        none: 0px,
+        sm: 0.125rem,
+        DEFAULT: 0.25rem,
+        md: 0.375rem,
+        lg: 0.5rem,
+        xl: 0.75rem,
+        '2xl': 1rem,
+        '3xl': 1.5rem,
+        full: 9999px,
+);
+
+$directions: (t r b l tl tr br bl);
+
+@each $key, $value in $radius{
+  $name: rounded;
+
+  @if($key != 'DEFAULT') {
+    $name: rounded-#{$key};
+  }
+
+  .#{$name}{
+    border-radius: $value;
+  }
+}
+
+@each $direction in $directions{
+  @each $key, $value in $radius{
+    $name: rounded-#{$direction};
+
+    @if($key != 'DEFAULT') {
+      $name: rounded-#{$direction}-#{$key};
+    }
+
+    .#{$name}{
+      @if($direction == 't'){
+        border-top-left-radius: $value;
+        border-top-right-radius: $value;
+      } @else if($direction == 'r'){
+        border-top-right-radius: $value;
+        border-bottom-right-radius: $value;
+      } @else if($direction == 'b'){
+        border-bottom-right-radius: $value;
+        border-bottom-left-radius: $value;
+      } @else if($direction == 'l'){
+        border-top-left-radius: $value;
+        border-bottom-left-radius: $value;
+      } @else if($direction == 'tl'){
+        border-top-left-radius: $value;
+      } @else if($direction == 'tr'){
+        border-top-right-radius: $value;
+      } @else if($direction == 'br'){
+        border-bottom-right-radius: $value;
+      } @else if($direction == 'bl'){
+        border-bottom-left-radius: $value;
+      }
+    }
+  }
+}
