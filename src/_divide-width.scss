@@ -1,0 +1,29 @@
+$widths: (
+        DEFAULT: 1px,
+        0: 0px,
+        2: 2px,
+        4: 4px,
+        8: 8px,
+);
+
+$directions: x y;
+
+@each $direction in $directions {
+  @each $key, $value in $widths {
+    $name: null;
+    @if ($key != 'DEFAULT') {
+      $name: -#{$key};
+    }
+    @if ($direction == 'x') {
+      .divide-x#{$name} > :not([hidden]) ~ :not([hidden]) {
+        border-right-width: 0;
+        border-left-width: $value;
+      }
+    } @else if ($direction == 'y') {
+      .divide-y#{$name} > :not([hidden]) ~ :not([hidden]) {
+        border-bottom-width: 0;
+        border-top-width: $value;
+      }
+    }
+  }
+}

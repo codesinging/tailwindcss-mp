@@ -10365,3 +10365,53 @@
 .border-none {
   border-style: none;
 }
+
+.divide-x > :not([hidden]) ~ :not([hidden]) {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+.divide-x-0 > :not([hidden]) ~ :not([hidden]) {
+  border-right-width: 0;
+  border-left-width: 0px;
+}
+
+.divide-x-2 > :not([hidden]) ~ :not([hidden]) {
+  border-right-width: 0;
+  border-left-width: 2px;
+}
+
+.divide-x-4 > :not([hidden]) ~ :not([hidden]) {
+  border-right-width: 0;
+  border-left-width: 4px;
+}
+
+.divide-x-8 > :not([hidden]) ~ :not([hidden]) {
+  border-right-width: 0;
+  border-left-width: 8px;
+}
+
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-bottom-width: 0;
+  border-top-width: 1px;
+}
+
+.divide-y-0 > :not([hidden]) ~ :not([hidden]) {
+  border-bottom-width: 0;
+  border-top-width: 0px;
+}
+
+.divide-y-2 > :not([hidden]) ~ :not([hidden]) {
+  border-bottom-width: 0;
+  border-top-width: 2px;
+}
+
+.divide-y-4 > :not([hidden]) ~ :not([hidden]) {
+  border-bottom-width: 0;
+  border-top-width: 4px;
+}
+
+.divide-y-8 > :not([hidden]) ~ :not([hidden]) {
+  border-bottom-width: 0;
+  border-top-width: 8px;
+}
