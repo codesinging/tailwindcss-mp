@@ -97,6 +97,16 @@ $purples: (
         900: #581c87
 ) !default;
 
+// serial colors
+$serialColors: (
+        'gray': $grays,
+        'red': $reds,
+        'orange': $oranges,
+        'green': $greens,
+        'blue': $blues,
+        'purple': $purples
+) !default;
+
 // spacing scale
 $spacings: (
         0: 0px,
