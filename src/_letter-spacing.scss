@@ -1,4 +1,4 @@
-$spacings: (
+$letterSpacings: (
         tighter: -0.05em,
         tight: -0.025em,
         normal: 0em,
@@ -7,7 +7,7 @@ $spacings: (
         widest: 0.1em,
 );
 
-@each $key, $value in $spacings {
+@each $key, $value in $letterSpacings {
   .tracking-#{$key} {
     letter-spacing: $value;
   }
