@@ -1,0 +1,5 @@
+@each $value in (solid dashed dotted double hidden none) {
+  .border-#{$value} {
+    border-style: $value;
+  }
+}
