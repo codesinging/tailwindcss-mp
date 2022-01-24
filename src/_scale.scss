@@ -1,0 +1,21 @@
+$scales: 0 50 75 90 95 100 105 110 125 150;
+
+$directions: none x y;
+
+@each $scale in $scales {
+  @each $direction in $directions {
+    @if ($direction == 'none') {
+      .scale-#{$scale} {
+        transform: scale($scale / 100);
+      }
+    } @else if ($direction == 'x') {
+      .scale-x-#{$scale} {
+        transform: scaleX($scale / 100);
+      }
+    } @else if ($direction == 'y') {
+      .scale-y-#{$scale} {
+        transform: scaleY($scale / 100);
+      }
+    }
+  }
+}
