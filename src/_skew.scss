@@ -1,0 +1,8 @@
+@each $value in (0 1 2 3 6 12) {
+  .skew-x-#{$value} {
+    transform: skewX(#{$value}deg);
+  }
+  .skew-y-#{$value} {
+    transform: skewY(#{$value}deg);
+  }
+}
