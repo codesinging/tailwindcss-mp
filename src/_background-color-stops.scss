@@ -1,0 +1,86 @@
+@import "variables";
+
+$serialColors: (
+        'gray': $grays,
+        'red': $reds,
+        'orange': $oranges,
+        'green': $greens,
+        'blue': $blues,
+        'purple': $purples
+) !default;
+
+.from-inherit{
+  --tw-gradient-from: inherit;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$white});
+}
+
+.from-current{
+  --tw-gradient-from: correntColor;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$white});
+}
+
+.from-transparent{
+  --tw-gradient-from: transparent;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$black});
+}
+
+.from-black{
+  --tw-gradient-from: #{$black};
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$black});
+}
+
+.from-white{
+  --tw-gradient-from: #{$white};
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$white});
+}
+
+@each $serial, $colors in $serialColors {
+  @each $color, $value in $colors {
+    .from-#{$serial}-#{$color} {
+      --tw-gradient-from: #{$value};
+      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$value});
+    }
+  }
+}
+
+.via-inherit{
+  --tw-gradient-stops: var(--tw-gradient-from), inherit, var(--tw-gradient-to, #{$white});
+}
+
+.via-current{
+  --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, #{$white});
+}
+
+.via-transparent{
+  --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, #{$black});
+}
+
+.via-black{
+  --tw-gradient-stops: var(--tw-gradient-from), #{$black}, var(--tw-gradient-to, #{$black});
+}
+
+.via-white{
+  --tw-gradient-stops: var(--tw-gradient-from), #{$white}, var(--tw-gradient-to, #{$white});
+}
+
+@each $serial, $colors in $serialColors {
+  @each $color, $value in $colors {
+    .via-#{$serial}-#{$color} {
+      --tw-gradient-stops: var(--tw-gradient-from), #{$value}, var(--tw-gradient-to, #{$value});
+    }
+  }
+}
+
+@each $key, $value in $specialColors{
+  .to-#{$key}{
+    --tw-gradient-to: #{$value};
+  }
+}
+
+@each $serial, $colors in $serialColors {
+  @each $color, $value in $colors {
+    .to-#{$serial}-#{$color} {
+      --tw-gradient-to: #{$value};
+    }
+  }
+}
