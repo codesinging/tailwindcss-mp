@@ -1,0 +1,15 @@
+@import "variables";
+
+@each $color, $value in $specialColors {
+  .divide-#{$color} > :not([hidden]) ~ :not([hidden]) {
+    border-color: $value;
+  }
+}
+
+@each $serial, $colors in $serialColors {
+  @each $color, $value in $colors {
+    .divide-#{$serial}-#{$color} > :not([hidden]) ~ :not([hidden]) {
+      border-color: $value;
+    }
+  }
+}

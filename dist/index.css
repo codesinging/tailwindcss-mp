@@ -10415,3 +10415,263 @@
   border-bottom-width: 0;
   border-top-width: 8px;
 }
+
+.divide-inherit > :not([hidden]) ~ :not([hidden]) {
+  border-color: inherit;
+}
+
+.divide-current > :not([hidden]) ~ :not([hidden]) {
+  border-color: currentColor;
+}
+
+.divide-transparent > :not([hidden]) ~ :not([hidden]) {
+  border-color: transparent;
+}
+
+.divide-black > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000;
+}
+
+.divide-white > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fff;
+}
+
+.divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f9fafb;
+}
+
+.divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f3f4f6;
+}
+
+.divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e5e7eb;
+}
+
+.divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #d1d5db;
+}
+
+.divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #9ca3af;
+}
+
+.divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #6b7280;
+}
+
+.divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #4b5563;
+}
+
+.divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #374151;
+}
+
+.divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #1f2937;
+}
+
+.divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #111827;
+}
+
+.divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fef2f2;
+}
+
+.divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2;
+}
+
+.divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca;
+}
+
+.divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fca5a5;
+}
+
+.divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f87171;
+}
+
+.divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #ef4444;
+}
+
+.divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #dc2626;
+}
+
+.divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #b91c1c;
+}
+
+.divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #991b1b;
+}
+
+.divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #7f1d1d;
+}
+
+.divide-orange-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fff7ed;
+}
+
+.divide-orange-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #ffedd5;
+}
+
+.divide-orange-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fed7aa;
+}
+
+.divide-orange-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fdba74;
+}
+
+.divide-orange-400 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fb923c;
+}
+
+.divide-orange-500 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f97316;
+}
+
+.divide-orange-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #ea580c;
+}
+
+.divide-orange-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #c2410c;
+}
+
+.divide-orange-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #9a3412;
+}
+
+.divide-orange-900 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #7c2d12;
+}
+
+.divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f0fdf4;
+}
+
+.divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #dcfce7;
+}
+
+.divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #bbf7d0;
+}
+
+.divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #86efac;
+}
+
+.divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #4ade80;
+}
+
+.divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #22c55e;
+}
+
+.divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #16a34a;
+}
+
+.divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #15803d;
+}
+
+.divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #166534;
+}
+
+.divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #14532d;
+}
+
+.divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #eff6ff;
+}
+
+.divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #dbeafe;
+}
+
+.divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #bfdbfe;
+}
+
+.divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #93c5fd;
+}
+
+.divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #60a5fa;
+}
+
+.divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #3b82f6;
+}
+
+.divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #2563eb;
+}
+
+.divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #1d4ed8;
+}
+
+.divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #1e40af;
+}
+
+.divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #1e3a8a;
+}
+
+.divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #faf5ff;
+}
+
+.divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #f3e8ff;
+}
+
+.divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e9d5ff;
+}
+
+.divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #d8b4fe;
+}
+
+.divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #c084fc;
+}
+
+.divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #a855f7;
+}
+
+.divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #9333ea;
+}
+
+.divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #7e22ce;
+}
+
+.divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #6b21a8;
+}
+
+.divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #581c87;
+}
