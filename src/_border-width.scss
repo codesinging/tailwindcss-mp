@@ -1,0 +1,41 @@
+$widths: (
+        DEFAULT: 1px,
+        0: 0px,
+        2: 2px,
+        4: 4px,
+        8: 8px,
+);
+
+$directions: none x y t r b l;
+
+@each $direction in $directions {
+  $d: border;
+  @if ($direction != 'none') {
+    $d: border-#{$direction};
+  }
+  @each $key, $value in $widths {
+    $name: #{$d};
+    @if ($key != 'DEFAULT') {
+      $name: #{$d}-#{$key};
+    }
+    .#{$name} {
+      @if ($direction == 'none') {
+        border-width: $value;
+      } @else if ($direction == 'x') {
+        border-left-width: $value;
+        border-right-width: $value;
+      } @else if ($direction == 'y') {
+        border-top-width: $value;
+        border-bottom-width: $value;
+      } @else if ($direction == 't') {
+        border-top-width: $value;
+      } @else if ($direction == 'r') {
+        border-right-width: $value;
+      } @else if ($direction == 'b') {
+        border-bottom-width: $value;
+      } @else if ($direction == 'l') {
+        border-left-width: $value;
+      }
+    }
+  }
+}
