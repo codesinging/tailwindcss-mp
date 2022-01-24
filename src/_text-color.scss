@@ -6,15 +6,6 @@
   }
 }
 
-$serialColors: (
-        'gray': $grays,
-        'red': $reds,
-        'orange': $oranges,
-        'green': $greens,
-        'blue': $blues,
-        'purple': $purples
-) !default;
-
 @each $serial, $colors in $serialColors {
   @each $color, $value in $colors {
     .text-#{$serial}-#{$color} {

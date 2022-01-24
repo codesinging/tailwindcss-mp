@@ -8521,3 +8521,1823 @@
 .border-l-8 {
   border-left-width: 8px;
 }
+
+.border-inherit {
+  border-color: inherit;
+}
+
+.border-current {
+  border-color: currentColor;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-black {
+  border-color: #000;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.border-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-gray-700 {
+  border-color: #374151;
+}
+
+.border-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-gray-900 {
+  border-color: #111827;
+}
+
+.border-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-red-200 {
+  border-color: #fecaca;
+}
+
+.border-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-red-400 {
+  border-color: #f87171;
+}
+
+.border-red-500 {
+  border-color: #ef4444;
+}
+
+.border-red-600 {
+  border-color: #dc2626;
+}
+
+.border-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-red-800 {
+  border-color: #991b1b;
+}
+
+.border-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-orange-500 {
+  border-color: #f97316;
+}
+
+.border-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-green-300 {
+  border-color: #86efac;
+}
+
+.border-green-400 {
+  border-color: #4ade80;
+}
+
+.border-green-500 {
+  border-color: #22c55e;
+}
+
+.border-green-600 {
+  border-color: #16a34a;
+}
+
+.border-green-700 {
+  border-color: #15803d;
+}
+
+.border-green-800 {
+  border-color: #166534;
+}
+
+.border-green-900 {
+  border-color: #14532d;
+}
+
+.border-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-purple-900 {
+  border-color: #581c87;
+}
+
+.border-x-inherit {
+  border-color: inherit;
+}
+
+.border-x-current {
+  border-color: currentColor;
+}
+
+.border-x-transparent {
+  border-color: transparent;
+}
+
+.border-x-black {
+  border-color: #000;
+}
+
+.border-x-white {
+  border-color: #fff;
+}
+
+.border-x-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-x-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-x-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-x-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-x-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-x-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-x-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-x-gray-700 {
+  border-color: #374151;
+}
+
+.border-x-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-x-gray-900 {
+  border-color: #111827;
+}
+
+.border-x-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-x-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-x-red-200 {
+  border-color: #fecaca;
+}
+
+.border-x-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-x-red-400 {
+  border-color: #f87171;
+}
+
+.border-x-red-500 {
+  border-color: #ef4444;
+}
+
+.border-x-red-600 {
+  border-color: #dc2626;
+}
+
+.border-x-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-x-red-800 {
+  border-color: #991b1b;
+}
+
+.border-x-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-x-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-x-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-x-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-x-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-x-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-x-orange-500 {
+  border-color: #f97316;
+}
+
+.border-x-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-x-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-x-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-x-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-x-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-x-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-x-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-x-green-300 {
+  border-color: #86efac;
+}
+
+.border-x-green-400 {
+  border-color: #4ade80;
+}
+
+.border-x-green-500 {
+  border-color: #22c55e;
+}
+
+.border-x-green-600 {
+  border-color: #16a34a;
+}
+
+.border-x-green-700 {
+  border-color: #15803d;
+}
+
+.border-x-green-800 {
+  border-color: #166534;
+}
+
+.border-x-green-900 {
+  border-color: #14532d;
+}
+
+.border-x-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-x-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-x-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-x-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-x-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-x-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-x-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-x-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-x-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-x-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-x-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-x-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-x-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-x-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-x-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-x-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-x-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-x-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-x-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-x-purple-900 {
+  border-color: #581c87;
+}
+
+.border-y-inherit {
+  border-color: inherit;
+}
+
+.border-y-current {
+  border-color: currentColor;
+}
+
+.border-y-transparent {
+  border-color: transparent;
+}
+
+.border-y-black {
+  border-color: #000;
+}
+
+.border-y-white {
+  border-color: #fff;
+}
+
+.border-y-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-y-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-y-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-y-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-y-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-y-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-y-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-y-gray-700 {
+  border-color: #374151;
+}
+
+.border-y-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-y-gray-900 {
+  border-color: #111827;
+}
+
+.border-y-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-y-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-y-red-200 {
+  border-color: #fecaca;
+}
+
+.border-y-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-y-red-400 {
+  border-color: #f87171;
+}
+
+.border-y-red-500 {
+  border-color: #ef4444;
+}
+
+.border-y-red-600 {
+  border-color: #dc2626;
+}
+
+.border-y-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-y-red-800 {
+  border-color: #991b1b;
+}
+
+.border-y-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-y-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-y-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-y-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-y-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-y-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-y-orange-500 {
+  border-color: #f97316;
+}
+
+.border-y-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-y-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-y-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-y-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-y-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-y-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-y-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-y-green-300 {
+  border-color: #86efac;
+}
+
+.border-y-green-400 {
+  border-color: #4ade80;
+}
+
+.border-y-green-500 {
+  border-color: #22c55e;
+}
+
+.border-y-green-600 {
+  border-color: #16a34a;
+}
+
+.border-y-green-700 {
+  border-color: #15803d;
+}
+
+.border-y-green-800 {
+  border-color: #166534;
+}
+
+.border-y-green-900 {
+  border-color: #14532d;
+}
+
+.border-y-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-y-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-y-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-y-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-y-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-y-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-y-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-y-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-y-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-y-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-y-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-y-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-y-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-y-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-y-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-y-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-y-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-y-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-y-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-y-purple-900 {
+  border-color: #581c87;
+}
+
+.border-t-inherit {
+  border-color: inherit;
+}
+
+.border-t-current {
+  border-color: currentColor;
+}
+
+.border-t-transparent {
+  border-color: transparent;
+}
+
+.border-t-black {
+  border-color: #000;
+}
+
+.border-t-white {
+  border-color: #fff;
+}
+
+.border-t-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-t-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-t-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-t-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-t-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-t-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-t-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-t-gray-700 {
+  border-color: #374151;
+}
+
+.border-t-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-t-gray-900 {
+  border-color: #111827;
+}
+
+.border-t-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-t-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-t-red-200 {
+  border-color: #fecaca;
+}
+
+.border-t-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-t-red-400 {
+  border-color: #f87171;
+}
+
+.border-t-red-500 {
+  border-color: #ef4444;
+}
+
+.border-t-red-600 {
+  border-color: #dc2626;
+}
+
+.border-t-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-t-red-800 {
+  border-color: #991b1b;
+}
+
+.border-t-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-t-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-t-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-t-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-t-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-t-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-t-orange-500 {
+  border-color: #f97316;
+}
+
+.border-t-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-t-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-t-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-t-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-t-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-t-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-t-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-t-green-300 {
+  border-color: #86efac;
+}
+
+.border-t-green-400 {
+  border-color: #4ade80;
+}
+
+.border-t-green-500 {
+  border-color: #22c55e;
+}
+
+.border-t-green-600 {
+  border-color: #16a34a;
+}
+
+.border-t-green-700 {
+  border-color: #15803d;
+}
+
+.border-t-green-800 {
+  border-color: #166534;
+}
+
+.border-t-green-900 {
+  border-color: #14532d;
+}
+
+.border-t-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-t-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-t-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-t-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-t-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-t-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-t-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-t-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-t-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-t-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-t-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-t-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-t-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-t-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-t-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-t-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-t-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-t-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-t-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-t-purple-900 {
+  border-color: #581c87;
+}
+
+.border-r-inherit {
+  border-color: inherit;
+}
+
+.border-r-current {
+  border-color: currentColor;
+}
+
+.border-r-transparent {
+  border-color: transparent;
+}
+
+.border-r-black {
+  border-color: #000;
+}
+
+.border-r-white {
+  border-color: #fff;
+}
+
+.border-r-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-r-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-r-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-r-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-r-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-r-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-r-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-r-gray-700 {
+  border-color: #374151;
+}
+
+.border-r-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-r-gray-900 {
+  border-color: #111827;
+}
+
+.border-r-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-r-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-r-red-200 {
+  border-color: #fecaca;
+}
+
+.border-r-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-r-red-400 {
+  border-color: #f87171;
+}
+
+.border-r-red-500 {
+  border-color: #ef4444;
+}
+
+.border-r-red-600 {
+  border-color: #dc2626;
+}
+
+.border-r-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-r-red-800 {
+  border-color: #991b1b;
+}
+
+.border-r-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-r-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-r-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-r-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-r-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-r-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-r-orange-500 {
+  border-color: #f97316;
+}
+
+.border-r-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-r-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-r-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-r-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-r-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-r-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-r-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-r-green-300 {
+  border-color: #86efac;
+}
+
+.border-r-green-400 {
+  border-color: #4ade80;
+}
+
+.border-r-green-500 {
+  border-color: #22c55e;
+}
+
+.border-r-green-600 {
+  border-color: #16a34a;
+}
+
+.border-r-green-700 {
+  border-color: #15803d;
+}
+
+.border-r-green-800 {
+  border-color: #166534;
+}
+
+.border-r-green-900 {
+  border-color: #14532d;
+}
+
+.border-r-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-r-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-r-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-r-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-r-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-r-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-r-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-r-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-r-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-r-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-r-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-r-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-r-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-r-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-r-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-r-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-r-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-r-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-r-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-r-purple-900 {
+  border-color: #581c87;
+}
+
+.border-b-inherit {
+  border-color: inherit;
+}
+
+.border-b-current {
+  border-color: currentColor;
+}
+
+.border-b-transparent {
+  border-color: transparent;
+}
+
+.border-b-black {
+  border-color: #000;
+}
+
+.border-b-white {
+  border-color: #fff;
+}
+
+.border-b-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-b-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-b-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-b-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-b-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-b-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-b-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-b-gray-700 {
+  border-color: #374151;
+}
+
+.border-b-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-b-gray-900 {
+  border-color: #111827;
+}
+
+.border-b-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-b-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-b-red-200 {
+  border-color: #fecaca;
+}
+
+.border-b-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-b-red-400 {
+  border-color: #f87171;
+}
+
+.border-b-red-500 {
+  border-color: #ef4444;
+}
+
+.border-b-red-600 {
+  border-color: #dc2626;
+}
+
+.border-b-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-b-red-800 {
+  border-color: #991b1b;
+}
+
+.border-b-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-b-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-b-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-b-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-b-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-b-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-b-orange-500 {
+  border-color: #f97316;
+}
+
+.border-b-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-b-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-b-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-b-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-b-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-b-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-b-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-b-green-300 {
+  border-color: #86efac;
+}
+
+.border-b-green-400 {
+  border-color: #4ade80;
+}
+
+.border-b-green-500 {
+  border-color: #22c55e;
+}
+
+.border-b-green-600 {
+  border-color: #16a34a;
+}
+
+.border-b-green-700 {
+  border-color: #15803d;
+}
+
+.border-b-green-800 {
+  border-color: #166534;
+}
+
+.border-b-green-900 {
+  border-color: #14532d;
+}
+
+.border-b-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-b-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-b-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-b-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-b-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-b-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-b-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-b-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-b-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-b-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-b-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-b-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-b-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-b-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-b-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-b-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-b-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-b-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-b-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-b-purple-900 {
+  border-color: #581c87;
+}
+
+.border-l-inherit {
+  border-color: inherit;
+}
+
+.border-l-current {
+  border-color: currentColor;
+}
+
+.border-l-transparent {
+  border-color: transparent;
+}
+
+.border-l-black {
+  border-color: #000;
+}
+
+.border-l-white {
+  border-color: #fff;
+}
+
+.border-l-gray-50 {
+  border-color: #f9fafb;
+}
+
+.border-l-gray-100 {
+  border-color: #f3f4f6;
+}
+
+.border-l-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.border-l-gray-300 {
+  border-color: #d1d5db;
+}
+
+.border-l-gray-400 {
+  border-color: #9ca3af;
+}
+
+.border-l-gray-500 {
+  border-color: #6b7280;
+}
+
+.border-l-gray-600 {
+  border-color: #4b5563;
+}
+
+.border-l-gray-700 {
+  border-color: #374151;
+}
+
+.border-l-gray-800 {
+  border-color: #1f2937;
+}
+
+.border-l-gray-900 {
+  border-color: #111827;
+}
+
+.border-l-red-50 {
+  border-color: #fef2f2;
+}
+
+.border-l-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-l-red-200 {
+  border-color: #fecaca;
+}
+
+.border-l-red-300 {
+  border-color: #fca5a5;
+}
+
+.border-l-red-400 {
+  border-color: #f87171;
+}
+
+.border-l-red-500 {
+  border-color: #ef4444;
+}
+
+.border-l-red-600 {
+  border-color: #dc2626;
+}
+
+.border-l-red-700 {
+  border-color: #b91c1c;
+}
+
+.border-l-red-800 {
+  border-color: #991b1b;
+}
+
+.border-l-red-900 {
+  border-color: #7f1d1d;
+}
+
+.border-l-orange-50 {
+  border-color: #fff7ed;
+}
+
+.border-l-orange-100 {
+  border-color: #ffedd5;
+}
+
+.border-l-orange-200 {
+  border-color: #fed7aa;
+}
+
+.border-l-orange-300 {
+  border-color: #fdba74;
+}
+
+.border-l-orange-400 {
+  border-color: #fb923c;
+}
+
+.border-l-orange-500 {
+  border-color: #f97316;
+}
+
+.border-l-orange-600 {
+  border-color: #ea580c;
+}
+
+.border-l-orange-700 {
+  border-color: #c2410c;
+}
+
+.border-l-orange-800 {
+  border-color: #9a3412;
+}
+
+.border-l-orange-900 {
+  border-color: #7c2d12;
+}
+
+.border-l-green-50 {
+  border-color: #f0fdf4;
+}
+
+.border-l-green-100 {
+  border-color: #dcfce7;
+}
+
+.border-l-green-200 {
+  border-color: #bbf7d0;
+}
+
+.border-l-green-300 {
+  border-color: #86efac;
+}
+
+.border-l-green-400 {
+  border-color: #4ade80;
+}
+
+.border-l-green-500 {
+  border-color: #22c55e;
+}
+
+.border-l-green-600 {
+  border-color: #16a34a;
+}
+
+.border-l-green-700 {
+  border-color: #15803d;
+}
+
+.border-l-green-800 {
+  border-color: #166534;
+}
+
+.border-l-green-900 {
+  border-color: #14532d;
+}
+
+.border-l-blue-50 {
+  border-color: #eff6ff;
+}
+
+.border-l-blue-100 {
+  border-color: #dbeafe;
+}
+
+.border-l-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-l-blue-300 {
+  border-color: #93c5fd;
+}
+
+.border-l-blue-400 {
+  border-color: #60a5fa;
+}
+
+.border-l-blue-500 {
+  border-color: #3b82f6;
+}
+
+.border-l-blue-600 {
+  border-color: #2563eb;
+}
+
+.border-l-blue-700 {
+  border-color: #1d4ed8;
+}
+
+.border-l-blue-800 {
+  border-color: #1e40af;
+}
+
+.border-l-blue-900 {
+  border-color: #1e3a8a;
+}
+
+.border-l-purple-50 {
+  border-color: #faf5ff;
+}
+
+.border-l-purple-100 {
+  border-color: #f3e8ff;
+}
+
+.border-l-purple-200 {
+  border-color: #e9d5ff;
+}
+
+.border-l-purple-300 {
+  border-color: #d8b4fe;
+}
+
+.border-l-purple-400 {
+  border-color: #c084fc;
+}
+
+.border-l-purple-500 {
+  border-color: #a855f7;
+}
+
+.border-l-purple-600 {
+  border-color: #9333ea;
+}
+
+.border-l-purple-700 {
+  border-color: #7e22ce;
+}
+
+.border-l-purple-800 {
+  border-color: #6b21a8;
+}
+
+.border-l-purple-900 {
+  border-color: #581c87;
+}

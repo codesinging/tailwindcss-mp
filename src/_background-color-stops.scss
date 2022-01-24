@@ -1,14 +1,5 @@
 @import "variables";
 
-$serialColors: (
-        'gray': $grays,
-        'red': $reds,
-        'orange': $oranges,
-        'green': $greens,
-        'blue': $blues,
-        'purple': $purples
-) !default;
-
 .from-inherit{
   --tw-gradient-from: inherit;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #{$white});

@@ -1,0 +1,23 @@
+@import "variables";
+
+$directions: none x y t r b l;
+
+@each $direction in $directions{
+  $d: null;
+  @if($direction != 'none'){
+    $d: -#{$direction};
+  }
+  @each $color, $value in $specialColors {
+    .border#{$d}-#{$color} {
+      border-color: $value;
+    }
+  }
+
+  @each $serial, $colors in $serialColors {
+    @each $color, $value in $colors {
+      .border#{$d}-#{$serial}-#{$color} {
+        border-color: $value;
+      }
+    }
+  }
+}
