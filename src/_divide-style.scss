@@ -1,0 +1,5 @@
+@each $value in (solid dashed dotted double none) {
+  .divide-#{$value} > :not([hidden]) ~ :not([hidden]) {
+    border-style: $value;
+  }
+}
