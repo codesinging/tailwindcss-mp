@@ -10779,3 +10779,11 @@
 .opacity-100 {
   opacity: 1;
 }
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border-separate {
+  border-collapse: separate;
+}
