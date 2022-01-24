@@ -1,0 +1,5 @@
+@each $value in (none text all auto) {
+  .select-#{$value} {
+    user-select: $value;
+  }
+}
